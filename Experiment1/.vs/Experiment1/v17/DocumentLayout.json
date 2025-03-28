@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\belob\\Workshop2\\Experiment1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C9F63D69-7B1D-4328-A45A-A9C827638347}|Table2\\Table2.vcxproj|C:\\Users\\belob\\Workshop2\\Experiment1\\Table2\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C9F63D69-7B1D-4328-A45A-A9C827638347}|Table2\\Table2.vcxproj|solutionrelative:Table2\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6331856-FF8E-405B-BFF4-1AB02BB8D742}|Table1\\Table1.vcxproj|C:\\Users\\belob\\Workshop2\\Experiment1\\Table1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D6331856-FF8E-405B-BFF4-1AB02BB8D742}|Table1\\Table1.vcxproj|solutionrelative:Table1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\belob\\Workshop2\\Experiment1\\Table2\\Source.cpp",
+              "RelativeDocumentMoniker": "Table2\\Source.cpp",
+              "ToolTip": "C:\\Users\\belob\\Workshop2\\Experiment1\\Table2\\Source.cpp",
+              "RelativeToolTip": "Table2\\Source.cpp",
+              "ViewState": "AQIAABwAAAAAAAAAAAAAAC4AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-28T20:09:29.945Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\belob\\Workshop2\\Experiment1\\Table1\\Source.cpp",
+              "RelativeDocumentMoniker": "Table1\\Source.cpp",
+              "ToolTip": "C:\\Users\\belob\\Workshop2\\Experiment1\\Table1\\Source.cpp",
+              "RelativeToolTip": "Table1\\Source.cpp",
+              "ViewState": "AQIAABEAAAAAAAAAAAAowCUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-28T18:53:18.176Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

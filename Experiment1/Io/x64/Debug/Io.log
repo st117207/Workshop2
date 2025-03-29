@@ -1,0 +1,4 @@
+﻿  Source.cpp
+C:\Users\belob\Workshop2\Experiment1\Io\Source.cpp(30,14): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\belob\Workshop2\Experiment1\Io\Source.cpp(33,14): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  Io.vcxproj -> C:\Users\belob\Workshop2\Experiment1\x64\Debug\Io.exe

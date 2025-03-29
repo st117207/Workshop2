@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\belob\Workshop2\Experiment2\I0\Source.cpp(22,10): warning C4305: инициализация: усечение из "double" в "float"
+C:\Users\belob\Workshop2\Experiment2\I0\Source.cpp(30,14): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\belob\Workshop2\Experiment2\I0\Source.cpp(33,14): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+  I0.vcxproj -> C:\Users\belob\Workshop2\Experiment2\x64\Debug\I0.exe

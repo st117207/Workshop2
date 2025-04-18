@@ -32,7 +32,7 @@ void a_i(float arr1[], float arr2[], float arr3[], double n)
 {
 	for (int i = 0; i < n; i++) {
 		int exponent = static_cast<int>(std::floor(std::log10(std::abs(arr2[i] / arr1[i]))));
-		double scale = std::pow(10, 2 - exponent);
+		double scale = std::pow(10, 1 - exponent);
 		arr3[i] = round(arr2[i] / arr1[i] * scale) / scale;
 	}
 }
@@ -43,7 +43,7 @@ float arithmetic_mean(float arr3[], double n)
 		sum += arr3[i];
 	}
 	int exponent = static_cast<int>(std::floor(std::log10(std::abs(sum / n))));
-	double scale = std::pow(10, 2 - exponent);
+	double scale = std::pow(10, 1 - exponent);
 	float temp = round(sum / n * scale) / scale;
 	return temp;
 }
@@ -86,7 +86,7 @@ void outputdata(float arr1[], float arr2[], float arr3[], double n)
 			double scale1 = std::pow(10, 1 - exponent1);
 			temp1 = round((arr3[i] - arithmetic_mean(arr3, n)) * scale1) / scale1;
 			int exponent2 = static_cast<int>(std::floor(std::log10(std::abs(pow(temp1, 2)))));
-			double scale2 = std::pow(10, 3 - exponent2);
+			double scale2 = std::pow(10, 1 - exponent2);
 			temp2 = round(pow(temp1, 2) * scale2) / scale2;
 		}
 		else
@@ -96,15 +96,15 @@ void outputdata(float arr1[], float arr2[], float arr3[], double n)
 		}
 		sum1 += arr3[i];
 		sum2 += temp2;
-		outputFile << arr1[i] << "  " << arr2[i] << "   " << arr3[i] << "   " << temp1 << "   " << temp2 << std::endl;
+		outputFile << std::setprecision(2) << arr1[i] << "  " << std::setprecision(2) << arr2[i] << "   " << std::setprecision(2) << arr3[i] << "   " << std::setprecision(2) << temp1 << "   " << std::setprecision(2) << temp2 << std::endl;
 	}
 	outputFile << "--------------------------------------------" << std::endl;
-	outputFile << "Sum(a_i-a)= " << sum1 << " Sum(a_i-a)^2=" << sum2 << std::endl;
+	outputFile << "Sum(a_i-a)= " << std::setprecision(2) << sum1 << " Sum(a_i-a)^2=" << std::setprecision(2) << sum2 << std::endl;
 
-	outputFile << "Среднее арифитическое " << arithmetic_mean(arr3, n) << std::endl;
-	outputFile << "Погрешность a " << a_error(arr3, n, sum2) << std::endl;
-	outputFile << "e/k= " << e_k(arithmetic_mean(arr3, n)) << std::endl;
-	outputFile << "e/k Погрешность, как погрешность косвенных измерений " << e_k_error(arithmetic_mean(arr3, n), a_error(arr3, n, sum2)) << std::endl;
+	outputFile << "Среднее арифитическое " << std::setprecision(2) << arithmetic_mean(arr3, n) << std::endl;
+	outputFile << "Погрешность a " << std::setprecision(2) << a_error(arr3, n, sum2) << std::endl;
+	outputFile << "e/k= " << std::setprecision(2) << e_k(arithmetic_mean(arr3, n)) << std::endl;
+	outputFile << "e/k Погрешность, как погрешность косвенных измерений " << std::setprecision(2) << e_k_error(arithmetic_mean(arr3, n), a_error(arr3, n, sum2)) << std::endl;
 }
 
 int main() {

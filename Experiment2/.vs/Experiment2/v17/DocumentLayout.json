@@ -7,16 +7,19 @@
       "RelativeMoniker": "D:0:0:{A1391CED-9A0D-4F9D-A118-32BBC8393A9B}|I0\\I0.vcxproj|solutionrelative:I0\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\belob\\Workshop2\\Experiment1\\Io\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{62B11D6F-0728-4756-90D8-44CF733487C9}|Table2\\Table2.vcxproj|C:\\Users\\belob\\Workshop2\\Experiment2\\Table2\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{62B11D6F-0728-4756-90D8-44CF733487C9}|Table2\\Table2.vcxproj|solutionrelative:Table2\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\belob\\Workshop2\\Experiment2\\I-\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:I-\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{44ED3323-24B5-4D4D-96FE-23D053E1CD8C}|Table1\\Table1.vcxproj|C:\\Users\\belob\\Workshop2\\Experiment2\\Table1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{44ED3323-24B5-4D4D-96FE-23D053E1CD8C}|Table1\\Table1.vcxproj|solutionrelative:Table1\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\belob\\Workshop2\\Experiment2\\I-\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:I-\\Source.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,8 +29,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.cpp",
+              "DocumentMoniker": "C:\\Users\\belob\\Workshop2\\Experiment1\\Io\\Source.cpp",
+              "RelativeDocumentMoniker": "..\\Experiment1\\Io\\Source.cpp",
+              "ToolTip": "C:\\Users\\belob\\Workshop2\\Experiment1\\Io\\Source.cpp",
+              "RelativeToolTip": "..\\Experiment1\\Io\\Source.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-18T17:27:22.268Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,14 +52,14 @@
               "RelativeDocumentMoniker": "I0\\Source.cpp",
               "ToolTip": "C:\\Users\\belob\\Workshop2\\Experiment2\\I0\\Source.cpp",
               "RelativeToolTip": "I0\\Source.cpp",
-              "ViewState": "AQIAABkAAAAAAAAAAAAowCYAAAAsAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-29T00:05:50.534Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\belob\\Workshop2\\Experiment2\\I-\\Source.cpp",
               "RelativeDocumentMoniker": "I-\\Source.cpp",
@@ -54,13 +70,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Source.cpp",
               "DocumentMoniker": "C:\\Users\\belob\\Workshop2\\Experiment2\\Table2\\Source.cpp",
               "RelativeDocumentMoniker": "Table2\\Source.cpp",
               "ToolTip": "C:\\Users\\belob\\Workshop2\\Experiment2\\Table2\\Source.cpp",
               "RelativeToolTip": "Table2\\Source.cpp",
-              "ViewState": "AQIAAEYAAAAAAAAAAAAAAFQAAAAAAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAowHcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-28T22:38:37.505Z"
             },

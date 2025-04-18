@@ -19,7 +19,7 @@ float Ln_i(float arr1[], float arr2[], double n)
 {
 	float sum1 = 0;
 	float sum2 = 0;
-	float a = 32.961;
+	float a = 32.5;
 	for (int i = 0; i < n; i++)
 	{
 		sum1 += arr1[i];
@@ -36,12 +36,14 @@ float Ln_i(float arr1[], float arr2[], double n)
 
 void outputdata(float arr1[], float arr2[], double n)
 {
+	int exponent = static_cast<int>(std::floor(std::log10(std::abs(Ln_i(arr1, arr2, n)))));
+	double scale = std::pow(10, 1 - exponent);
+	float temp = round(Ln_i(arr1, arr2, n) * scale) / scale;
 	std::ofstream outputFile("OutputData.csv");
-	outputFile  << Ln_i(arr1, arr2, n) << " " << std::setprecision(2) << Ln_i(arr1, arr2, n);
+	outputFile << std::setprecision(2) << Ln_i(arr1, arr2, n) << " " << std::setprecision(2) << exp(temp);
 
 }
 int main() {
-	float R = 12;
 	double n = 16;
 	float data1[16];
 	float data2[16];

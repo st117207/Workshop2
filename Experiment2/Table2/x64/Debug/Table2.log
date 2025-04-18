@@ -9,6 +9,6 @@ C:\Users\belob\Workshop2\Experiment2\Table2\Source.cpp(56,13): warning C4244: и
 C:\Users\belob\Workshop2\Experiment2\Table2\Source.cpp(61,10): warning C4305: инициализация: усечение из "double" в "float"
 C:\Users\belob\Workshop2\Experiment2\Table2\Source.cpp(67,10): warning C4305: инициализация: усечение из "double" в "float"
 C:\Users\belob\Workshop2\Experiment2\Table2\Source.cpp(69,13): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-C:\Users\belob\Workshop2\Experiment2\Table2\Source.cpp(83,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-C:\Users\belob\Workshop2\Experiment2\Table2\Source.cpp(86,15): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\belob\Workshop2\Experiment2\Table2\Source.cpp(87,65): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\belob\Workshop2\Experiment2\Table2\Source.cpp(90,42): warning C4244: =: преобразование "double" в "float", возможна потеря данных
   Table2.vcxproj -> C:\Users\belob\Workshop2\Experiment2\x64\Debug\Table 2.exe
